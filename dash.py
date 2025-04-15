@@ -13,10 +13,10 @@ def load_and_clean_excel(path, sheet):
 # ----------------------------
 # Load Excel files
 # ----------------------------
-transactions = load_and_clean_excel("cust_dash/2024_1.xlsx", "Sheet1")
-customers = load_and_clean_excel("cust_dash/CUSTOMER_TABLE NEW.xlsx", "Sheet1")
-items = load_and_clean_excel("cust_dash/ITEM_LIST.xlsx", "ITEM_LIST")
-locations = load_and_clean_excel("cust_dash/location.xlsx", "Sheet1")
+transactions = load_and_clean_excel("2024_1.xlsx", "Sheet1")
+customers = load_and_clean_excel("CUSTOMER_TABLE NEW.xlsx", "Sheet1")
+items = load_and_clean_excel("ITEM_LIST.xlsx", "ITEM_LIST")
+locations = load_and_clean_excel("location.xlsx", "Sheet1")
 
 # ----------------------------
 # Role selection
